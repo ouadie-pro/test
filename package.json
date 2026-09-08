@@ -1,0 +1,14 @@
+{
+  "name": "visionflow-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VisionFlow AI — full-stack image-to-video SaaS (frontend + backend).",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "node ./scripts/dev.js",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:backend": "npm --prefix backend start"
+  }
+}
